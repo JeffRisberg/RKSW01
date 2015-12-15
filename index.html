@@ -6,8 +6,7 @@
 
 <link rel="stylesheet" href="css/rickshaw.css">
 
-<script src="js/d3.min.js"></script>
-<script src="js/d3.layout.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.4.13/d3.min.js"></script>
 <script src="js/rickshaw.js"></script>
 </head>
 <body>
@@ -125,7 +124,7 @@
         graph: graph,
         orientation: 'left',
         tickFormat: Rickshaw.Fixtures.Number.formatKMBT,
-        element: document.getElementById('y_axis'),
+        element: document.getElementById('y_axis')
     });
 
     var legend = new Rickshaw.Graph.Legend({
